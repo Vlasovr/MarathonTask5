@@ -36,8 +36,8 @@ class PopOverVC: UIViewController {
     private func setupConstraints() {
         segmentedControl.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
-            segmentedControl.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 50),
-            segmentedControl.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -50),
+            segmentedControl.leftAnchor.constraint(equalTo: view.leftAnchor, constant: 100),
+            segmentedControl.rightAnchor.constraint(equalTo: view.rightAnchor, constant: -100),
             segmentedControl.topAnchor.constraint(equalTo: view.topAnchor, constant: 20)
         ])
         
